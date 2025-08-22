@@ -5,7 +5,7 @@ The project leverages **Python, FastAPI, and LangChain** along with integration 
 
 ---
 
-## 🚀 Introduction
+##  Introduction
 
 The **Report News Agent Alert** is designed to automate the process of gathering and sharing news.  
 Instead of manually browsing multiple websites, this agent:
@@ -37,7 +37,7 @@ report_news_agent_alert/
 └── requirements.txt # Dependencies
 ```
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **News Retrieval**  
    - The system fetches daily news updates from online sources.  
@@ -67,5 +67,16 @@ report_news_agent_alert/
 
 ---
 
-## 📂 Project Structure
+report_news_agent_alert/
+│
+├── src/
+│ ├── tools/ # Tools for news fetching, email saving, report creation
+│ ├── main.py # Entry point for FastAPI server
+│ ├── agent.py # News agent logic
+│ └── utils/ # Utility functions
+│
+├── .env # Environment variables (ignored in git)
+├── .gitignore # Ignored files (secrets, cache, logs, etc.)
+├── README.md # Project documentation
+└── requirements.txt # Dependencies
 
