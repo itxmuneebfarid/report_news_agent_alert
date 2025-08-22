@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[co]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Environment files
+.env
+.emails.csv
+
+# Documentation
+README.md
+
+# Misc / lock files
+uvlock
+.data/
+
+# Secrets (keep ignored)
+.credentials.json
+# Secrets
+credentials.json
+token.json
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Misc
+.DS_Store
+*.log
+

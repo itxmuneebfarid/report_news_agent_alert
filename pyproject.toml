@@ -1,0 +1,19 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-community>=0.3.27",
+    "langchain-google-community>=2.0.7",
+    "langchain-google-genai>=2.1.9",
+    "langchain-openai>=0.3.30",
+    "langchain-tavily>=0.2.11",
+    "langgraph>=0.6.4",
+    "langchain-google-community[gmail]",
+    "schedule",
+    "google-auth-oauthlib>=1.2.2",
+    "google-auth-httplib2>=0.2.0",
+]
