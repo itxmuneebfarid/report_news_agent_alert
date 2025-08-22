@@ -54,7 +54,7 @@ report_news_agent_alert/
 4. **Email Delivery**  
    - Using Gmail API, the report is sent automatically to the user’s email.  
 
----
+```
 
 ## 🛠️ Tech Stack
 
@@ -65,18 +65,4 @@ report_news_agent_alert/
 - **Frontend**: HTML + TailwindCSS (for report request UI)  
 - **Version Control**: Git & GitHub  
 
----
-
-report_news_agent_alert/
-│
-├── src/
-│ ├── tools/ # Tools for news fetching, email saving, report creation
-│ ├── main.py # Entry point for FastAPI server
-│ ├── agent.py # News agent logic
-│ └── utils/ # Utility functions
-│
-├── .env # Environment variables (ignored in git)
-├── .gitignore # Ignored files (secrets, cache, logs, etc.)
-├── README.md # Project documentation
-└── requirements.txt # Dependencies
-
+```
